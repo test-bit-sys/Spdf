@@ -13,10 +13,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-0078D6?style=for-the-badge)](https://github.com/)
 
-<br/>
-
-![Spdf Screenshot](assets/screenshot.png)
-
 </div>
 
 ---
@@ -149,10 +145,9 @@ This produces a portable package and Windows setup script with desktop and start
 
 ```
 Spdf/
-├── assets/                  # Brand assets, high-res logo, app icons, screenshot
+├── assets/                  # Brand assets, high-res logo, app icons
 │   ├── app_icon.ico
-│   ├── logo.png
-│   └── screenshot.png
+│   └── logo.png
 ├── spdf/
 │   ├── config.py            # Themes, palettes, zoom presets, ToolMode enums
 │   ├── icons.py             # Vector SVG icon renderer factory (50+ icons)
