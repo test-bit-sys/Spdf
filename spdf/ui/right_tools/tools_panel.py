@@ -1,5 +1,5 @@
 """
-Right Collapsible Tools Panel for Spdf (Adobe Acrobat Pro DC Style).
+Right Collapsible Tools Panel for Spdf.
 Houses the quick tools switcher and dedicated sub-panels for Organize Pages,
 Edit PDF, Comment & Annotate, Protect & Sign, and Export / Convert.
 """
@@ -20,7 +20,7 @@ from spdf.icons import get_icon
 
 
 class CategoryCard(QFrame):
-    """Clickable card for each Acrobat Pro DC tool category."""
+    """Clickable card for each PDF tool category."""
     clicked = Signal()
 
     def __init__(self, title: str, icon_name: str, desc: str, parent=None):
@@ -68,7 +68,7 @@ class CategoryCard(QFrame):
 
 
 class ToolsHubView(QWidget):
-    """Initial tools menu showing the 5 Acrobat Pro categories."""
+    """Initial tools menu showing the 5 primary tool categories."""
     categorySelected = Signal(int)
 
     def __init__(self, parent=None):

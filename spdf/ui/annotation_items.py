@@ -170,7 +170,7 @@ class DraggableTextItem(QGraphicsTextItem, AnnotationBase):
 
 
 class StickyNoteItem(QGraphicsItem, AnnotationBase):
-    """Acrobat-style Sticky Note icon with click-to-edit comment."""
+    """Interactive Sticky Note icon with click-to-edit comment."""
     def __init__(self, pos: QPointF, text: str = "Sticky Note",
                  color_hex: str = Colors.ANNOT_NOTE, page_idx: int = 0, parent=None):
         super().__init__(parent)

@@ -1,5 +1,5 @@
 """
-Ribbon Bar & Quick Action Toolbar for Spdf (Adobe Acrobat Pro DC Style).
+Ribbon Bar & Quick Action Toolbar for Spdf.
 Houses page navigation, zoom controls, tool toggles, page rotation, and panel toggles.
 """
 

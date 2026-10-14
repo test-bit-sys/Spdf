@@ -1,6 +1,6 @@
 """
 Multi-Document Tab Manager for Spdf.
-Manages simultaneous open PDF documents in Acrobat-style tabs, with modified indicators,
+Manages simultaneous open PDF documents in modern multi-document tabs, with modified indicators,
 tab closures, and an elegant Home / Empty State screen when no files are open.
 """
 
@@ -34,7 +34,7 @@ from spdf.utils.helpers import RecentFilesManager, format_file_size
 
 
 class HomeScreenWidget(QWidget):
-    """Welcoming Adobe Acrobat Pro DC style home screen when no PDF is active."""
+    """Welcoming home screen when no PDF is active."""
     openRequested = Signal()
     blankRequested = Signal()
     mergeRequested = Signal()

@@ -1,6 +1,6 @@
 """
 Main Menu Bar for Spdf.
-Implements the Adobe Acrobat Pro DC menu hierarchy: File, Edit, View, Tools, and Help.
+Implements the professional menu hierarchy: File, Edit, View, Tools, and Help.
 """
 
 import os
@@ -276,7 +276,7 @@ class SpdfMenuBar(QMenuBar):
             f"<p>Version {APP_VERSION}</p>"
             f"<p>A complete, high-performance PDF Reader, Editor, and Management system "
             f"built with Python, PySide6, and PyMuPDF.</p>"
-            f"<p>Full Adobe Acrobat Pro DC layout, asynchronous high-DPI rendering, "
+            f"<p>Modern dark theme interface, asynchronous high-DPI rendering, "
             f"annotation baking, page manipulation, digital signatures, and AES-256 encryption.</p>"
         )
         QMessageBox.about(self, f"About {APP_NAME}", about_text)

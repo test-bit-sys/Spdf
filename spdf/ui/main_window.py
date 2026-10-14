@@ -1,5 +1,5 @@
 """
-Main Application Window for Spdf (Adobe Acrobat Pro DC Clone).
+Main Application Window for Spdf - Professional Desktop PDF Suite.
 Assembles the menu bar, ribbon bar, left collapsible sidebar, center tabbed workspace,
 right collapsible tools panel, and status bar into a unified, high-performance interface.
 """
@@ -25,7 +25,7 @@ from spdf.utils.helpers import RecentFilesManager
 
 
 class MainWindow(QMainWindow):
-    """Adobe Acrobat Pro DC clone top-level application window."""
+    """Spdf top-level application window."""
     def __init__(self, initial_pdf: str = None):
         super().__init__()
         self.setWindowTitle(APP_TITLE)

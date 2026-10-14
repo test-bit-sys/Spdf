@@ -1,6 +1,6 @@
 """
 Comprehensive QSS Stylesheet for Spdf.
-Implements the Adobe Acrobat Pro DC modern dark theme with deep charcoal/black
+Implements the modern obsidian dark theme with deep charcoal/black
 surfaces (#121212, #1E1E1E, #252525), crisp borders (#2D2D2D), and gold/amber highlights (#E5A93C).
 """
 

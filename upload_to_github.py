@@ -79,7 +79,7 @@ def git_commit_and_push(remote_url, token, username):
         run_cmd([
             "git", "commit", "-m",
             "feat: initial release of Spdf - Professional Desktop PDF Suite v1.0.0\n\n"
-            "- Modern Adobe Acrobat DC style dark UI\n"
+            "- Modern luxury obsidian dark theme UI\n"
             "- High-DPI page canvas with asynchronous rendering\n"
             "- Complete annotation suite (Highlights, Underline, Ink pen, Text overlays, Sticky notes)\n"
             "- Document organizer (Merge, Split, Extract, Rotate, Delete pages)\n"

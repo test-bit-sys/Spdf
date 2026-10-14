@@ -8,14 +8,14 @@ doc = fitz.open()
 
 # Page 1: Welcome & Overview
 p1 = doc.new_page(width=612, height=792)
-p1.insert_text(fitz.Point(72, 80), "Spdf - Adobe Acrobat Pro DC Clone", fontsize=22, fontname="helv", color=(0.9, 0.66, 0.24))
-p1.insert_text(fitz.Point(72, 110), "Professional PDF Reader, Editor, and Document Management", fontsize=13, fontname="helv", color=(0.3, 0.3, 0.3))
+p1.insert_text(fitz.Point(72, 80), "Spdf — Professional Desktop PDF Suite", fontsize=22, fontname="helv", color=(0.9, 0.66, 0.24))
+p1.insert_text(fitz.Point(72, 110), "High-Performance PDF Reader, Editor, and Document Management", fontsize=13, fontname="helv", color=(0.3, 0.3, 0.3))
 
 intro = (
-    "Welcome to Spdf! This application replicates the workflow, aesthetic, and feature set "
-    "of Adobe Acrobat Pro DC natively in Python using PySide6 (Qt6) and PyMuPDF.\n\n"
-    "Features implemented in Spdf:\n"
-    "  * Modern Adobe Acrobat Dark Theme (#121212 / #1E1E1E) with Gold & Crimson accents\n"
+    "Welcome to Spdf! A high-performance, modern PDF reader, editor, and organizer "
+    "natively built in Python using PySide6 (Qt6) and PyMuPDF.\n\n"
+    "Key Features implemented in Spdf:\n"
+    "  * Modern Obsidian Dark Theme (#121212 / #1E1E1E) with Gold & Crimson accents\n"
     "  * High-DPI QGraphicsView & QGraphicsScene canvas with smooth drop shadows\n"
     "  * Interactive Page Thumbnails with drag-to-reorder and right-click context menu\n"
     "  * Bookmarks (Table of Contents) tree navigation\n"

@@ -1,6 +1,6 @@
 """
 Spdf - Professional PDF Reader, Editor, and Management Application.
-Replicating the layout, workflow, and feature set of Adobe Acrobat Pro DC.
+A high-performance desktop PDF suite built with Python and PySide6.
 
 Entry point for launching the desktop application.
 """

@@ -156,7 +156,7 @@ Spdf/
 ├── spdf/
 │   ├── config.py            # Themes, palettes, zoom presets, ToolMode enums
 │   ├── icons.py             # Vector SVG icon renderer factory (50+ icons)
-│   ├── style.py             # Dark Adobe Acrobat DC stylesheet (QSS)
+│   ├── style.py             # Modern obsidian dark theme stylesheet (QSS)
 │   ├── models/
 │   │   ├── document.py      # Core PDF document model (MuPDF bindings)
 │   │   ├── render_worker.py # Background asynchronous page & thumbnail renderer

@@ -21,7 +21,7 @@ class ToolMode(Enum):
 
 
 class Colors:
-    # Adobe Acrobat Pro DC Dark Theme Palette
+    # Modern Luxury Obsidian Dark Theme Palette
     BG_MAIN = "#121212"
     BG_WORKSPACE = "#181818"
     BG_PANEL = "#1E1E1E"
