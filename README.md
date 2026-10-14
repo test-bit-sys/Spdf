@@ -11,7 +11,9 @@
 [![PySide6](https://img.shields.io/badge/PySide6-Qt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://pypi.org/project/PySide6/)
 [![PyMuPDF](https://img.shields.io/badge/Engine-PyMuPDF%20(Fitz)-E5A93C?style=for-the-badge)](https://pymupdf.readthedocs.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-0078D6?style=for-the-badge)](https://github.com/)
+<br/>
+
+![Spdf Screenshot](assets/screenshot.png)
 
 </div>
 
@@ -145,9 +147,10 @@ This produces a portable package and Windows setup script with desktop and start
 
 ```
 Spdf/
-├── assets/                  # Brand assets, high-res logo, app icons
+├── assets/                  # Brand assets, high-res logo, app icons, screenshot
 │   ├── app_icon.ico
-│   └── logo.png
+│   ├── logo.png
+│   └── screenshot.png
 ├── spdf/
 │   ├── config.py            # Themes, palettes, zoom presets, ToolMode enums
 │   ├── icons.py             # Vector SVG icon renderer factory (50+ icons)
